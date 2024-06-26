@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    color: aliceblue;
+    background-color: #000000;
+    position: relative;
+    border-radius: 15px;
+}
