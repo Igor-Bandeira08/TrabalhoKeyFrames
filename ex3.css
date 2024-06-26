@@ -54,34 +54,3 @@ header {
         transform: rotateY(360deg);
     }
 }
-
-main {
-    padding: 2rem 0;
-}
-
-main h2{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
-    font-size: 70px ;
-    color: antiquewhite;
-    font-family: 'Prompt', 'regular';
-}
-
-main p{
-    text-align: left;
-    color: antiquewhite;
-    padding: 2rem 0;
-    font-size: 30px ;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-footer {
-    padding: 2rem;
-   height: auto;
-    background-color: #0d0e11;
-    justify-content: space-between;
-    align-items: center;
-    color: antiquewhite;
-}
