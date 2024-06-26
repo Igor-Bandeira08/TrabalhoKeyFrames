@@ -2,10 +2,49 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
+    padding: 0rem 0%;
     color: aliceblue;
-    background-color: #000000;
+    background-color: #0d0e11;
     position: relative;
-    border-radius: 15px;
+ 
+    text-align: center;
+    z-index: 2;
 }
 
+
+#head ul {
+    padding: 2rem 10px;
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    
+}
+
+#head a {
+    padding: 10px 2px;
+    /* justify-content: space-between;
+    align-items: center; */
+    color: aliceblue;
+    background-color: #645f5f;
+    margin: 20px;
+    display: flow-root;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+#logo {
+    width: 70px;
+    padding: 2rem;
+    animation: giro 1.5s infinite forwards;
+}
+
+@keyframes giro{
+    0% {
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
