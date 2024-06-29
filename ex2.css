@@ -54,3 +54,44 @@ header {
         transform: rotateY(360deg);
     }
 }
+
+.all {
+    padding: 10rem 45%;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    align-items: center;
+    animation: cor 5s infinite forwards;
+}
+
+
+@keyframes cor{
+
+    0% {
+       background-color: purple;
+    }
+
+    20%{
+        background-color: yellow;
+    }
+
+    40%{
+        background-color: red;
+    }
+
+    60%{
+        background-color: blue;
+    }
+
+    80%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: #ff5e00;
+    }
+
+}
