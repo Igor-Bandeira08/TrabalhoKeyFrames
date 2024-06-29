@@ -19,6 +19,7 @@ header {
 }
 
 
+
 #head ul {
     padding: 2rem 10px;
     display: flex;
@@ -54,3 +55,5 @@ header {
         transform: rotateY(360deg);
     }
 }
+
+
