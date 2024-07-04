@@ -2,6 +2,7 @@
 
 body{
     background-color: #4C7EE1;
+
 }
 
 
@@ -56,4 +57,95 @@ header {
     }
 }
 
+  
+   section {
+    padding: 10rem 40%;
+   }
 
+
+.Box{
+    height: 50px;
+    width: 50px;
+    color: #000000; 
+    animation: cresce 5s infinite forwards;
+   
+   }
+  
+
+   
+   @keyframes cresce{
+   
+   0%{
+       height: 25px;
+       width: 25px;
+       opacity: 1;
+    transform: rotate(0deg);
+   }
+   
+   10%{
+       height: 50px;
+       width: 50px;
+       background-color: blue;
+   
+   }
+   20%{
+       height: 75px;
+       width: 75px;
+       background-color: red;
+   
+   }
+   
+   30%{
+       height: 100px;
+       width: 100px;
+       background-color: #fc9700;
+   
+   }
+   
+   40%{
+       height: 125px;
+       width: 125px;
+   
+   background-color: #cc00ff;
+   
+   }
+   50%{
+       height: 150px;
+       width: 150px;
+       background-color: #2afc00;
+   
+   }
+   60%{
+       height: 175px;
+       width: 175px;
+       background-color: #00dffc;
+   
+   }
+   70%{
+       height: 200px;
+       width: 200px;
+       background-color: #fc00e7;
+   
+   }
+   80%{
+       height: 225px;
+       width: 225px;
+       background-color: #fc9700;
+   
+   }
+   90%{
+       height: 250px;
+       width: 250px;
+       background-color: #fcf800;
+       
+   
+   }
+   100%{
+       height: 275px;
+       width: 275px;
+       background-color: #000000;
+       transform: rotate(360deg);
+   
+   }
+
+}

@@ -43,10 +43,10 @@ header {
 #logo {
     width: 70px;
     padding: 2rem;
-    animation: girol 1.5s infinite forwards;
+    animation: giro1 1.5s infinite forwards;
 }
 
-@keyframes girol {
+@keyframes giro1 {
     0% {
         transform: rotateY(0deg);
     }
@@ -58,10 +58,9 @@ header {
 
 .all {
     padding-top: 10rem;
-    padding-left: 45%;
-    padding-bottom: 0;
-    align-items: center;
-    justify-content: center;
+    
+    
+   
 }
 
 
@@ -69,21 +68,23 @@ header {
     height: 200px;
     width: 200px;
     background-color: purple;
-    align-items: center;
-    animation: giro 2s infinite forwards;
+    position: absolute;
+    animation: lado 3s infinite linear;
 }
 
 
-
-
-@keyframes giro {
+@keyframes lado {
 
     0% {
-        transform: rotate(0deg);
+        left: 10%;
+    }
+
+    50% {
+        left: calc(80% - 50px);
     }
 
     100% {
-        transform: rotate(360deg);
+        left: 10%;
     }
 
 }
