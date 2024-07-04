@@ -80,58 +80,6 @@ header {
     }
 }
 
-.linha {
-    height: auto;
-    width: 100%;
-    padding: 0;
-    background-color: #645f5f;
-    color: aliceblue;
-    opacity: 0.8;
-    justify-content: center;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.Dlinha {}
-
-.Dlinha nav ul {
-    justify-content: center;
-    display: flex;
-
-
-}
-
-.Dlinha li {
-    list-style-type: none;
-    padding: 0 30px;
-
-}
-
-.Dlinha a {
-    font-size: 25px;
-    font-family: 'Teko';
-    text-decoration: none;
-    display: flex;
-    color: aliceblue;
-    background-color: #645f5f;
-    padding: 1px 8px;
-    border-radius: 5px;
-    opacity: 0.5;
-}
-
-.Dlinha a:hover {
-    font-size: 25px;
-    font-family: 'Teko';
-    text-decoration: none;
-    display: flex;
-    color: aliceblue;
-    background-color: #4b4848;
-    padding: 1px 8px;
-    border-radius: 5px;
-    opacity: 1;
-}
-
 
 .all {
     padding-top: 10rem;
