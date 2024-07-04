@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 
 
@@ -31,14 +31,14 @@ header {
 
 
 #head ul {
-    padding: 2rem 10px;
+    padding: 1rem 10px;
     display: flex;
     list-style-type: none;
     
 }
 
 #head a {
-    padding: 10px 5px;
+    padding: 0px 5px;
     
     color: #645f5f;
     
@@ -47,11 +47,11 @@ header {
     font-size: 25px;
     text-decoration: none;
     border-radius: 5px;
+    transition: 0.5s;
 
 }
 
 #head a:hover{
-    padding: 10px 5px;
     
     color: rgb(255, 255, 255);
     background-color: #4C7EE1;
@@ -79,96 +79,97 @@ header {
 }
 
 
-section{
-    padding: 10rem 45%;
+main {
+  padding: 2rem 0;
 }
 
-.Box{
-    height: 50px;
-    width: 50px;
-    background-color: #ff0000;
-    animation: cresce 4s infinite forwards;
-    
+main h2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  font-size: 70px ;
+  color: rgb(74, 73, 71);
+  font-family: 'Chakra Petch';
+}
+
+main h3 {
+  text-align: left;
+  padding: 2rem 5%;
+  font-size: 50px;
+  color: rgb(72, 71, 71);
+  font-family: 'Prompt', 'regular';
+}
+
+main p{
+  text-align: left;
+  color: rgb(78, 78, 78);
+  padding: 2rem 5%;
+  font-size: 30px ;
+  font-family: 'Varela Round' ;
 }
 
 
+main li{
+  list-style-type: circle;
+  text-decoration: none;
+}
 
+main a{
+  height: auto;
+  padding: 15px 10px ;
+  border-radius: 25px;
+  color: #4C7EE1;
+  background-color: aliceblue;
+  text-decoration: none;
+  list-style-type: none;
+  transition: 0.5s;
+}
 
-@keyframes cresce{
-   
-    
-    0%{
-        height: 25px;
-        width: 25px;
-       
-     
-    }
-    
-    10%{
-        height: 50px;
-        width: 50px;
-       
-    
-    }
-    20%{
-        height: 75px;
-        width: 75px;
-        
-    
-    }
-    
-    30%{
-        height: 100px;
-        width: 100px;
-        
-    
-    }
-    
-    40%{
-        height: 125px;
-        width: 125px;
-    
-   
-    
-    }
-    50%{
-        height: 150px;
-        width: 150px;
-        
-    
-    }
-    60%{
-        height: 175px;
-        width: 175px;
-       
-    }
-    70%{
-        height: 200px;
-        width: 200px;
-       
-    
-    }
-    80%{
-        height: 225px;
-        width: 225px;
-        
-    
-    }
-    90%{
-        height: 250px;
-        width: 250px;
-       background-color: #ff0000;
-        opacity: 1;
-    
-    }
-
+main a:hover{
+  height: auto;
+  padding: 10px 8px ;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: #1854C5;
+  text-decoration: none;
+  list-style-type: none;
   
-
-    100%{
-        height: 275px;
-        width: 275px;
-        background-color: antiquewhite;
-     opacity: 0;
-    
-    }
 }
+
+main  h4{
+  font-size: 25px;
+  padding: 1% 50px;
+  color: rgb(72, 71, 71);
+  font-family: 'Prompt';
+}
+
+section {
+  padding-top: 2rem;
+ padding-right: 40rem;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: #0054fc;
+  float: right;
+  display: flexbox;
+  animation: exemplo 3s infinite linear;
+}
+
+.texto {
+padding-left: 2rem;
+display: flexbox;
+font-family: 'Fira code' ;
+}
+
+@keyframes exemplo {
+
+  from {
+    background-color: red;
+    }
+    to {
+    background-color: yellow;
+    }
+    }

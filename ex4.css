@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+
+
+
 
 body{
-    background-color: #4C7EE1;
-
+    background-color: aliceblue;
 }
 
 
@@ -10,15 +19,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 0%;
-    color: aliceblue;
-    background-color: #0d0e11;
+    
+    color: #0d0e11;
+    background-color: aliceblue;
     position: relative;
-    font-family: 'Prompt';
-    text-align: center;
+    font-family: 'teko';
+    
     z-index: 2;
+    text-align: center;
 }
-
 
 
 #head ul {
@@ -30,13 +39,25 @@ header {
 
 #head a {
     padding: 10px 5px;
-    /* justify-content: space-between;
-    align-items: center; */
-    color: aliceblue;
-    background-color: #645f5f;
+    
+    color: #645f5f;
+    
     margin: 20px;
     display: flow-root;
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+#head a:hover{
+    padding: 10px 5px;
+    
+    color: rgb(255, 255, 255);
+    background-color: #4C7EE1;
+    margin: 20px;
+    display: flow-root;
+    
     text-decoration: none;
     border-radius: 5px;
 
@@ -67,7 +88,8 @@ header {
     height: 50px;
     width: 50px;
     color: #000000; 
-    animation: cresce 5s infinite forwards;
+    animation: cresce 4s infinite linear;
+    position: absolute;
    
    }
   
@@ -76,76 +98,78 @@ header {
    @keyframes cresce{
    
    0%{
-       height: 25px;
-       width: 25px;
+       height: 15px;
+       width: 15px;
        opacity: 1;
     transform: rotate(0deg);
+    left: 20%;
    }
    
    10%{
-       height: 50px;
-       width: 50px;
+       height: 30px;
+       width: 30px;
        background-color: blue;
    
    }
    20%{
-       height: 75px;
-       width: 75px;
+       height: 55px;
+       width: 55px;
        background-color: red;
    
    }
    
    30%{
-       height: 100px;
-       width: 100px;
+       height: 75px;
+       width: 75px;
        background-color: #fc9700;
    
    }
    
    40%{
-       height: 125px;
-       width: 125px;
+       height: 100px;
+       width: 100px;
    
    background-color: #cc00ff;
    
    }
    50%{
-       height: 150px;
-       width: 150px;
+       height: 120px;
+       width: 120px;
        background-color: #2afc00;
+       left: calc(80% - 50px);
    
    }
    60%{
-       height: 175px;
-       width: 175px;
+       height: 145px;
+       width: 145px;
        background-color: #00dffc;
    
    }
    70%{
-       height: 200px;
-       width: 200px;
+       height: 185px;
+       width: 185px;
        background-color: #fc00e7;
    
    }
    80%{
-       height: 225px;
-       width: 225px;
+       height: 205px;
+       width: 205px;
        background-color: #fc9700;
    
    }
    90%{
-       height: 250px;
-       width: 250px;
-       background-color: #fcf800;
+       height: 230px;
+       width: 230px;
+       background-color: #4C7EE1 ;
        
    
    }
    100%{
-       height: 275px;
-       width: 275px;
-       background-color: #000000;
+       height: 250px;
+       width: 250px;
+       opacity: 0;
        transform: rotate(360deg);
-   
+       left: 20%;
    }
 
 }
