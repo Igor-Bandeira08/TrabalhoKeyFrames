@@ -11,7 +11,7 @@
 
 
 body{
-    background-color: aliceblue;
+    
 }
 
 
@@ -131,6 +131,12 @@ header {
     opacity: 1;
 }
 
+.fundo {
+    height: 100px;
+    width: 100px;
+
+}
+
 main {
     padding: 2rem 0;
 }
@@ -155,7 +161,7 @@ main h3 {
 
 main p{
     text-align: left;
-    color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
     padding: 2rem 5%;
     font-size: 30px ;
     font-family: 'Varela Round' ;
